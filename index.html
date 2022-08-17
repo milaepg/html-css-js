@@ -1,0 +1,36 @@
+<html>
+<head>
+  <title>Registration Form</title>
+</head>
+<body>
+  <h1>Registration Form</h1>
+  <p>First Name: * <input type="text" name="firstname" required></p>
+  <p>Last Name: * <input type="text" name="lastname" required></p>
+  <p>Email Address: * <input type="text" name="emailaddres" required></p>
+  <p>Password: * <input type="password" name="password" required></p>
+  <p>Confirm Password: * <input type="password" name="confirmpassword" required></p>
+  <p>Birthday: <input type="date" name="birthday" required></p>
+  <p>Gender Identity:</p>
+      <input type="radio" name="hm" value="h" required> Male
+      <input type="radio" name="hm" value="m" required> Famele
+      <input type="radio" name="hm" value="m" required> Non-binary 
+      <input type="radio" name="hm" value="m" required> I prefer not to answer 
+  </p>
+  <p>A short description about myself:</p>
+      <textarea name="text" rows="5" cols="50"></textarea>
+  </p>
+  <p>Favorite Language: 
+      <select name="language">
+        <option>...</option>
+        <option>C</option>
+        <option>C++</option>
+        <option>Java</option>
+        <option>JavaScript</option>
+        <option>Python</option>
+      </select>
+  </p>
+  <input type="checkbox" name="checkbox"> Yes, I would like to receive periodic email updates
+  <p><input type="submit" value="Create Account"></p>
+  <p>*Indicate a requerid field</p>
+</body>
+</html>
