@@ -15,7 +15,8 @@
     height: 300px;
     width: 200px;
     background-color: blue;
-    margin: 15 px;
+    margin-top: 15px;
+    margin-left: 15px;
     display: inline-block;
 }
 .main {
