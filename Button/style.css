@@ -1,0 +1,27 @@
+.search, .add, .create {
+    display: block;
+    margin-bottom: 10px;
+    height: 40px;
+}
+.search {
+    background-color: lightgray;
+    color: greenyellow;
+    border: 2px 2px greenyellow;
+    font-weight: 750;
+    width: 100px;
+    
+}
+.add {
+    font-size: 12px;
+    border-radius: 30%;
+    color: blue;
+}
+
+.create {
+    background-color: blue;
+    color: white;
+    border: black;
+    width: 180px;
+    border: 2px;
+    box-shadow: black 8px 8px;
+}
