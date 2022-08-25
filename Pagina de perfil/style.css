@@ -1,0 +1,126 @@
+.nav {
+    background-color:  #212f3d;
+    color: aliceblue;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+.nav-links {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-evenly;
+} 
+.nav a, h3 {
+    color: white;
+    text-decoration: none; 
+} 
+.nav-title {
+    margin-left: 12%;
+    
+} 
+.btn {
+    height: 40px;
+    width: 120px;
+    background-color: #2ea5f8;
+    color: white; 
+    border: none;
+    border-radius: 8px;
+    font-size: 12px;
+    box-shadow: 4px 4px black;
+} 
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.container {
+    width: 60%;
+    margin: 10px auto;
+    display: flex;
+    
+    align-items: center;
+    padding: 15px;
+    
+}
+.cont-left {
+    flex-grow: 7;
+    
+}
+.cont-right {
+    flex-grow: 3;
+    margin-left: 30px;
+}
+.user {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+.card {
+    background-color: #646064;
+    height: 125px;
+    margin-bottom: 70px;
+}
+.card2 {
+    background-color: rgb(68, 67, 67);
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1rem;
+}
+.body {
+    padding: 10px;
+}
+.body h1, .body h2, .body h3, .body p {
+    margin: 10px 0px;
+}
+img.icon{
+    height: 25px;
+}
+.avatar-m {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 20px;
+} 
+
+.circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    background: #B2B2B2;
+    margin-right: 5px;
+  }
+.rad {
+    width: 60px;
+    height: 25px;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    background: #B2B2B2;
+    margin-right: 5px;
+  } 
+  .tittle {
+    display: flex;
+  } 
+table{
+    width: 70%;
+}
+.text-table{
+    width: 80%;
+}
