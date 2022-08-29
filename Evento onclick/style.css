@@ -1,9 +1,5 @@
 
-* {
-    border:1px solid;
-    border-color:#009900;
-  }
-  .nav {
+.nav {
     background-color: #212f3d;
     color: aliceblue;
     height: 80px;
